@@ -16,10 +16,14 @@ const cardStyle = {
   boxShadow: '0 4px 10px rgba(0,0,0,0.2)',
 };
 
+
+
 const imgStyle = {
   width: '100px',
   borderRadius: '50%',
   marginBottom: '10px',
+  display: 'block',    // 이 부분을 추가
+  margin: 'auto'       // 이 부분을 추가
 };
 
 export default ProfileCard;
