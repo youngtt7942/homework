@@ -5,12 +5,12 @@ import profileImg from './assets/images/zi-a.png';
 function App() {
   return (
     <div className="main-container">
-      <h1 className="title">정지아의 리액트 포트폴리오 ✨</h1>
+      <h1 className="title">정지아의 리액트 ✨</h1>
 
       <ProfileCard
         image={profileImg}
         name="정지아"
-        description="신소재를 사랑하는 개발자입니다. React와 Node를 활용한 풀스택 프로젝트에 열정을 가지고 있으며, 교육과 실습을 함께합니다."
+        description="신소재를 사랑하는 개발자입니다."
       />
 
       <div className="link-area">
