@@ -5,7 +5,7 @@ import profileImg from './assets/images/zi-a.png';
 function App() {
   return (
     <div className="main-container">
-      <h1 className="title">정지아의 리액트 ✨</h1>
+      <h1 className="title">정지안의 리액트 ✨</h1>
 
       <ProfileCard
         image={profileImg}
